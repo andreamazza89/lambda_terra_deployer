@@ -5,8 +5,8 @@ WORKDIR /deploy_lambda
 COPY ./install_utils.sh .
 RUN chmod u+x ./install_utils.sh
 
-COPY ./install_terraform_v0.11.7.sh .
-RUN chmod u+x ./install_terraform_v0.11.7.sh
+COPY ./install_terraform_v0.11.8.sh .
+RUN chmod u+x ./install_terraform_v0.11.8.sh
 
 COPY ./install_aws_cli.sh .
 RUN chmod u+x ./install_aws_cli.sh
